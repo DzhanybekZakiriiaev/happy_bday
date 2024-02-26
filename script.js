@@ -5,9 +5,9 @@ const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Ага, я знаю. Все знают. Жылдыз лох";
+  question.innerHTML = "Happy birthday, bro!";
   gif.src =
-    "https://emojiisland.com/cdn/shop/products/Sad_Face_Emoji_large.png?v=1571606037";
+    "https://static.toiimg.com/photo/86936449.cms";
 });
 
 noBtn.addEventListener("mouseover", () => {
